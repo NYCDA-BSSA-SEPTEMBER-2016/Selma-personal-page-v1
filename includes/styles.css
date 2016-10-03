@@ -2,6 +2,10 @@ body {
 	background: grey;
 }
 
+.portfolio {
+	padding: 15px 0px;
+}
+
 .container {
 	border-style: solid none;
 	padding: 15px;
