@@ -1,0 +1,24 @@
+.container {
+	border-style: solid none;
+	padding: 15px;
+	margin: 20px;
+}
+
+
+
+
+/*Examples on how to address them*/
+h6 {
+	color: red;
+}
+
+/*only ONE element: id: id="blabla" */
+#moon {
+	color: grey;
+	background-color: black;
+}
+
+/*class*/
+.list {
+	color: brown;
+}
