@@ -1,12 +1,14 @@
 body {
-	background: grey;
+	background: #222222;
 }
 
 .portfolioPic {
 	padding: 15px 0px;
 }
 
-
+.year {
+	text-align: right;
+}
 
 
 .container {
@@ -46,36 +48,53 @@ body {
 	border-bottom-color: yellow;
 }
 
+#buttonContact {
+	border-bottom-style: solid;
+	border-bottom-width: 5px;
+	border-bottom-color: orange;
+}
+
 #sectionAbout {
 	border-left-style: solid;
 	border-left-width: 15px;
-	border-left-color: red;
+	border-left-color: #660000;
+	background-color: #ffcccc;
 }
 
 #sectionPortfolio {
 	border-left-style: solid;
 	border-left-width: 15px;
 	border-left-color: blue;
+	background-color: #ffcccc;
 }
 
 #sectionEducation {
 	border-left-style: solid;
 	border-left-width: 15px;
 	border-left-color: green;
+	background-color: #ffcccc;
 }
 
 #sectionWork {
 	border-left-style: solid;
 	border-left-width: 15px;
 	border-left-color: pink;
+	background-color: #ffcccc;
 }
 
 #sectionSkills {
 	border-left-style: solid;
 	border-left-width: 15px;
 	border-left-color: yellow;
+	background-color: #ffcccc;
 }
 
+#sectionContact {
+	border-left-style: solid;
+	border-left-width: 15px;
+	border-left-color: orange;
+	background-color: #ffcccc;
+}
 
 /*werkt nog niet?? wil een streep eronder in dezelfde kleur als naast het onderdeel*/
 #buttonAbout {
