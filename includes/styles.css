@@ -1,7 +1,13 @@
+body {
+	background: grey;
+}
+
 .container {
 	border-style: solid none;
 	padding: 15px;
 	margin: 20px;
+	background-color: lightgrey;
+
 }
 
 
