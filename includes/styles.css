@@ -1,10 +1,23 @@
+/*useful color picker: http://www.w3schools.com/colors/colors_picker.asp*/
+/* #4d0000 = 15% rood. gebruiken in navbar en headings*/
+
+
 body {
-	background: #222222;
+/*	background: #222222; this is the navbar color*/
+background-color: #ffe6e6
 }
+
+/*Navbar shizzle*/
+.navbar {
+	background-color: #4d0000
+}
+
 
 .portfolioPic {
 	padding: 15px 0px;
 }
+
+.navbar
 
 .year {
 	text-align: right;
@@ -57,43 +70,43 @@ body {
 #sectionAbout {
 	border-left-style: solid;
 	border-left-width: 15px;
-	border-left-color: #660000;
-	background-color: #ffcccc;
+	border-left-color: #800000;
+	background-color: #ffe6e6;
 }
 
 #sectionPortfolio {
 	border-left-style: solid;
 	border-left-width: 15px;
-	border-left-color: blue;
-	background-color: #ffcccc;
+	border-left-color: #b30000;
+	background-color: #ffe6e6;
 }
 
 #sectionEducation {
 	border-left-style: solid;
 	border-left-width: 15px;
-	border-left-color: green;
-	background-color: #ffcccc;
+	border-left-color: #e60000;
+	background-color: #ffe6e6;
 }
 
 #sectionWork {
 	border-left-style: solid;
 	border-left-width: 15px;
-	border-left-color: pink;
-	background-color: #ffcccc;
+	border-left-color: #ff1a1a;
+	background-color: #ffe6e6;
 }
 
 #sectionSkills {
 	border-left-style: solid;
 	border-left-width: 15px;
-	border-left-color: yellow;
-	background-color: #ffcccc;
+	border-left-color: #ff4d4d;
+	background-color: #ffe6e6;
 }
 
 #sectionContact {
 	border-left-style: solid;
 	border-left-width: 15px;
-	border-left-color: orange;
-	background-color: #ffcccc;
+	border-left-color: #ff8080;
+	background-color: #ffe6e6	;
 }
 
 /*werkt nog niet?? wil een streep eronder in dezelfde kleur als naast het onderdeel*/
