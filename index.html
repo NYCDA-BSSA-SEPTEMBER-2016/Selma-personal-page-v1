@@ -7,16 +7,39 @@
 </head>
 <body>
 
-	<!-- Static navbar -->
+	<!-- Static navbar version 1 from w3schools -->
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span> 
+				</button>
+				<a class="navbar-brand" href="#">Selma Dorrestein</a>
+			</div>
+			<div class="collapse navbar-collapse" id="myNavbar">
+				<ul class="nav navbar-nav">
+					<li id=buttonAbout><a href="#sectionAbout">About</a></li>
+					<li id=buttonPortfolio><a href="#sectionPortfolio">Portfolio</a></li> 
+					<li id=buttonEducation><a href="#sectionEducation">Education</a></li> 
+					<li id=buttonWork><a href="#sectionWork">Work experience</a></li> 
+					<li id=buttonSkills><a href="#sectionSkills">Skills</a></li> 
+					<li id=buttonContact><a href="#sectionContact">Contact</a></li> 
+				</ul>
+			</div>
+		</div>
+	</nav>
+
 	<div class="container">
-		<p><strong>Navigation bar will still follow</strong></p>
+
 	</div>
 
 	<!-- Short about -->
-	<div class="container">
+	<div id=sectionAbout class="container">
 		<div class="row">
 			<div class="col-sm-4">
-				<img src="images/selma.jpg" alt="Selma Dorrestein" style="width:100%;">
+				<img id=imgSelma src="images/selma.jpg" alt="Selma Dorrestein" style="width:100%;">
 			</div>
 			<div class="col-sm-8">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -24,42 +47,43 @@
 				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
-			</div>
 		</div>
+	</div>
 
 		<!-- Portfolio/accomplishments test 2 -->
-		<div class="container">
+		<div id=sectionPortfolio class="container">
 			<div class="row">
 				<div class="col-sm-4">
-					<img class=portfolio src="images/panda6.jpg" alt="testpanda" style="width:100%;">
+					<img id= portf1 class=portfolioPic src="images/panda6.jpg" alt="testpanda" style="width:100%;">
+					<p id=portf1tekst>Dit is een test, want ik snap ff niet meer zo goed wat ik aan het doen ben en waar ik naar oplossingen moet zoeken.</p>
 				</div>
 				<div class="col-sm-4">					
-					<img class=portfolio src="images/panda6.jpg" alt="testpanda" style="width:100%;">
+					<img class=portfolioPic src="images/panda6.jpg" alt="testpanda" style="width:100%;">
 				</div>
 				<div class="col-sm-4">
-					<img class=portfolio src="images/panda6.jpg" alt="testpanda" style="width:100%;">
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-sm-4">
-					<img class=portfolio src="images/panda6.jpg" alt="testpanda" style="width:100%;">				
-				</div>
-				<div class="col-sm-4">
-					<img class=portfolio src="images/panda6.jpg" alt="testpanda" style="width:100%;">
-				</div>
-				<div class="col-sm-4">
-					<img class=portfolio src="images/panda6.jpg" alt="testpanda" style="width:100%;">
+					<img class=portfolioPic src="images/panda6.jpg" alt="testpanda" style="width:100%;">
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-sm-4">
-					<img class=portfolio src="images/panda6.jpg" alt="testpanda" style="width:100%;">				
+					<img class=portfolioPic src="images/panda6.jpg" alt="testpanda" style="width:100%;">				
+				</div>
+				<div class="col-sm-4">
+					<img class=portfolioPic src="images/panda6.jpg" alt="testpanda" style="width:100%;">
+				</div>
+				<div class="col-sm-4">
+					<img class=portfolioPic src="images/panda6.jpg" alt="testpanda" style="width:100%;">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-4">
+					<img class=portfolioPic src="images/panda6.jpg" alt="testpanda" style="width:100%;">				
 				</div>
 			</div>
 		</div>
 
 		<!-- Education moet wss met een tabel ofzo, want anders kloppen die jaartallen natuurlijk niet. -->
-		<div class="container">
+		<div id=sectionEducation class="container">
 			<div class="row">
 				<div class="col-sm-8">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -68,11 +92,11 @@
 					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
 					<div class="col-sm-4">Jaartallen hier maar dit is fout want het moet nog in een tabel ofzo anders klopt het niet meer als ie inschuift.</div>
-				</div>
 			</div>
+		</div>
 
 			<!-- Work experience moet wss met een tabel ofzo, want anders kloppen die jaartallen natuurlijk niet. -->
-			<div class="container">
+			<div id=sectionWork class="container">
 				<div class="row">
 					<div class="col-sm-8">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -85,11 +109,11 @@
 				</div>
 
 				<!-- Skills, skills, skills -->
-				<div class="container">
+				<div id=sectionSkills class="container">
 					<div class="row">
-						<div class="col-sm-4">OMG I have so many skills. I'm gonna put them all here. soooooooooo many skills, I hope they will all fit here. Love my skills, love my skills love it.</div>
-						<div class="col-sm-4">I know many languages too. so many. french. dutch. flemish. brabants. languages languages languages, maybe even use funny flags. who knows. languages.</div>
 						<div class="col-sm-4">This website looks like crap. It is because I'm currently still learning very very much and I'm not necessarily good at it. Yet. Here come the skills I'm learning.</div>
+						<div class="col-sm-4"> OMG I have so many skills and languages. I'm gonna put them all here. soooooooooo many skills, I hope they will all fit here. Love my skills, love my skills love it. I know many languages too. so many. french. dutch. flemish. brabants. languages languages languages, maybe even use funny flags. who knows. languages.</div>
+						<div class="col-sm-4">Apart from all those things listed here I have some great qualities too. And, granted, some lesser qualities. But I think I'll only show the good ones here.</div>
 					</div>
 				</div>
 
