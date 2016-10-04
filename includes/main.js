@@ -3,9 +3,17 @@
 $("div #portf1tekst").hide();
 $("div #portf2tekst").hide();
 $("div #portf3tekst").hide();
+$("div #portf4tekst").hide();
+$("div #portf5tekst").hide();
+$("div #portf6tekst").hide();
+
 
 $("#portf1").click(function(){
 	$("#portf1tekst").fadeIn(1000);
+});
+
+$("#portf1").click(function(){
+	$("#portf1tekst").fadeOut(10000);
 });
 
 $("#portf2").click(function(){
@@ -14,6 +22,18 @@ $("#portf2").click(function(){
 
 $("#portf3").click(function(){
 	$("#portf3tekst").fadeIn(1000);
+});
+
+$("#portf4").click(function(){
+	$("#portf4tekst").fadeIn(1000);
+});
+
+$("#portf5").click(function(){
+	$("#portf5tekst").fadeIn(1000);
+});
+
+$("#portf6").click(function(){
+	$("#portf6tekst").fadeIn(1000);
 });
 
 
