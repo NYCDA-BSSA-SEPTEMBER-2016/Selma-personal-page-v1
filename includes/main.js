@@ -10,13 +10,12 @@ $("div #portf6tekst").hide();
 
 $("#portf1").click(function(){
 	var button = false;
-	if (button) {
-		button = false
+	if (button.click) {
+		button = true
 		$("#portf1tekst").fadeOut(1000)
-		//fade ou
 	} else {
 		$("#portf1tekst").fadeIn(1000)
-		button = true
+		button = false
 	}
 });
 
