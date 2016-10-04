@@ -139,11 +139,15 @@ h2 {
 }
 
 /*werkt nog niet?? wil een streep eronder in dezelfde kleur als naast het onderdeel*/
-#buttonAbout {
-	border-style: solid 10px;
-	border-color: red;
+
+
+#email {
+    text-align: center;	
 }
 
+.sb {
+    text-align: center;
+}
 
 
 
