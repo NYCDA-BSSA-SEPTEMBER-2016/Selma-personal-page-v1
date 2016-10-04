@@ -43,22 +43,21 @@ $("div #portf5tekst").hide();
 $("div #portf6tekst").hide();
 
 
-var button = false
-$("#portf1").click(function(){
-	if (button.onclick) {
-		button = false;
-		$("#portf1tekst").fadeOut(1000)
-	} else {
-		$("#portf1tekst").fadeIn(1000)
-		button = true;
-	}
-});
-
-
-
+// I'm sorry Paul! I tried so many times and so many different ways and so many google sessions, but I simply couldn't get it to work! I choose to only make it show when clicked on and not fade out again, because it would change the feel of the webpage later on.
+// var button = false
 // $("#portf1").click(function(){
-// 	$("#portf1tekst").fadeOut(10000);
+// 	if (button.onclick) {
+// 		button = false;
+// 		$("#portf1tekst").fadeOut(1000)
+// 	} else {
+// 		$("#portf1tekst").fadeIn(1000)
+// 		button = true;
+// 	}
 // });
+
+$("#portf1").click(function(){
+	$("#portf1tekst").fadeOut(10000);
+});
 
 $("#portf2").click(function(){
 	$("#portf2tekst").fadeIn(1000);
@@ -83,7 +82,7 @@ $("#portf6").click(function(){
 
 
 // Contact: map
- function initMap() {
+function initMap() {
         var bssa = {lat: 52.341093, lng: 4.82315496};
         var map = new google.maps.Map(document.getElementById('map'), {
           zoom: 14,

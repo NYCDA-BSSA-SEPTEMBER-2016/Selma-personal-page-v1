@@ -1,6 +1,4 @@
-/*useful color picker: http://www.w3schools.com/colors/colors_picker.asp*/
-/* #4d0000 = 15% rood. gebruiken in navbar en headings*/
-
+/*General elements*/
 html, body {
     height: 100%;
 }
@@ -14,25 +12,6 @@ body {
 	background-color: #e6e6e6;
 	display: table-cell;
     vertical-align: middle;
-}
-
-
-/*    background: #ffe6e6; /* For browsers that do not support gradients */
-/*    background: -webkit-linear-gradient(#ffe6e6, #4d0000); /* For Safari 5.1 to 6.0 */
- /*   background: -o-linear-gradient(#ffe6e6, #4d0000); /* For Opera 11.1 to 12.0 */
-/*    background: -moz-linear-gradient(#ffe6e6, #4d0000); /* For Firefox 3.6 to 15 */
-/*    background: linear-gradient(#ffe6e6, #4d0000); /* Standard syntax (must be last) */
-/*    background-attachment: fixed;*/
-
-/*    background: #4d0000; /* For browsers that do not support gradients */
-/*    background: -webkit-linear-gradient(#4d0000, #ffe6e6); /* For Safari 5.1 to 6.0 */
-/*    background: -o-linear-gradient(#4d0000, #ffe6e6); /* For Opera 11.1 to 12.0 */
-/*    background: -moz-linear-gradient(#4d0000, #ffe6e6); /* For Firefox 3.6 to 15 */
-/*    background: linear-gradient(#4d0000, #ffe6e6); /* Standard syntax (must be last) */
-/*    background-attachment: fixed;*/
-
-#fixedHeight {
-	height: 40px;
 }
 
 h1, h2, h3 {
@@ -58,43 +37,30 @@ footer {
   	border-top-color: #404040;
 }
 
-#clickImage {
-	font-size: 1.2em;
-}
-
-#about {
-	font-size: 1.2em;
-	padding-top: 50px;
-	padding-right: 50px;
-}
-
-/*Navbar shizzle*/
-.navbar {
-	background-color: #404040
-}
-
-.paddingForNav {
-	padding-top: 60px;
-}
-
-.portfolioPic {
-	padding: 15px 0px;
-	position: relative;
-}
-
-.portf1tekst{
-	position: absolute;
-}
-
-.year {
-	text-align: right;
-}
-
-
 .container {
 	/*border-style: solid none;*/
 	padding: 15px;
 	margin: 20px;
+}
+
+/*This was a gradient background, which was pretty cool, but looked like the website was built in MS Frontpage*/
+/*    background: #ffe6e6; /* For browsers that do not support gradients */
+/*    background: -webkit-linear-gradient(#ffe6e6, #4d0000); /* For Safari 5.1 to 6.0 */
+ /*   background: -o-linear-gradient(#ffe6e6, #4d0000); /* For Opera 11.1 to 12.0 */
+/*    background: -moz-linear-gradient(#ffe6e6, #4d0000); /* For Firefox 3.6 to 15 */
+/*    background: linear-gradient(#ffe6e6, #4d0000); /* Standard syntax (must be last) */
+/*    background-attachment: fixed;*/
+
+/*    background: #4d0000; /* For browsers that do not support gradients */
+/*    background: -webkit-linear-gradient(#4d0000, #ffe6e6); /* For Safari 5.1 to 6.0 */
+/*    background: -o-linear-gradient(#4d0000, #ffe6e6); /* For Opera 11.1 to 12.0 */
+/*    background: -moz-linear-gradient(#4d0000, #ffe6e6); /* For Firefox 3.6 to 15 */
+/*    background: linear-gradient(#4d0000, #ffe6e6); /* Standard syntax (must be last) */
+/*    background-attachment: fixed;*/
+
+/*Navbar shizzle*/
+.navbar {
+	background-color: #404040
 }
 
 #buttonAbout {
@@ -133,6 +99,37 @@ footer {
 	border-bottom-color: #d9d9d9;
 }
 
+.paddingForNav {
+	padding-top: 60px;
+}
+
+/*About*/
+#fixedHeight {
+	height: 40px;
+}
+
+#about {
+	font-size: 1.2em;
+	padding-top: 50px;
+	padding-right: 50px;
+}
+
+/*Portfolio*/
+#clickImage {
+	font-size: 1.2em;
+}
+
+.portfolioPic {
+	padding: 15px 0px;
+	position: relative;
+}
+
+/*Education/work*/
+.year {
+	text-align: right;
+}
+
+/*Matching containers to NavButtons*/
 #sectionAbout {
 	border-left-style: solid;
 	border-left-width: 15px;
@@ -175,31 +172,11 @@ footer {
 	background-color: #f2f2f2	;
 }
 
-/*werkt nog niet?? wil een streep eronder in dezelfde kleur als naast het onderdeel*/
-
-
+/*Contact*/
 #email {
     text-align: center;	
 }
 
 .sb {
     text-align: center;
-}
-
-
-
-/*Examples on how to address them*/
-h6 {
-	color: red;
-}
-
-/*only ONE element: id: id="blabla" */
-#moon {
-	color: grey;
-	background-color: black;
-}
-
-/*class*/
-.list {
-	color: brown;
 }
