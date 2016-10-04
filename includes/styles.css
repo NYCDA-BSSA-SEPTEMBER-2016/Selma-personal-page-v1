@@ -31,7 +31,9 @@ body {
 /*    background: linear-gradient(#4d0000, #ffe6e6); /* Standard syntax (must be last) */
 /*    background-attachment: fixed;*/
 
-
+#fixedHeight {
+	height: 40px;
+}
 
 
 h1 {

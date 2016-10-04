@@ -9,12 +9,20 @@ $("div #portf6tekst").hide();
 
 
 $("#portf1").click(function(){
-	$("#portf1tekst").fadeIn(1000);
+	var button = false;
+	if (button) {
+		button = false
+		$("#portf1tekst").fadeOut(1000)
+		//fade ou
+	} else {
+		$("#portf1tekst").fadeIn(1000)
+		button = true
+	}
 });
 
-$("#portf1").click(function(){
-	$("#portf1tekst").fadeOut(10000);
-});
+// $("#portf1").click(function(){
+// 	$("#portf1tekst").fadeOut(10000);
+// });
 
 $("#portf2").click(function(){
 	$("#portf2tekst").fadeIn(1000);
