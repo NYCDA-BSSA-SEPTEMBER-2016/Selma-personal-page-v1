@@ -4,6 +4,7 @@
 	<title>Selma Dorrestein</title>
 	<link rel="stylesheet" type="text/css" href="./includes/bootstrap/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="./includes/styles.css">
+	<link rel="stylesheet" href="/includes/css-social-buttons/social-buttons.css">
 </head>
 <body>
 
@@ -32,190 +33,225 @@
 	</nav>
 
 	<div class="container">
-	<h1>Hello! I am Selma (dit wil ik dynamisch)</h1>
-<!-- 	drink a lot of coffee
-	love puns
-	could go for a beer or two
-	own a Grumpy Cat
-	don't get why SnapChat is fun
-	am available for a traineeship starting January 2007! -->
-
+		<h1>Hello! I <span class="rotate">am Selma, drink a lot of coffee, love puns, could go for a beer or two, own a Grumpy Cat, don't get why SnapChat is fun, am available for a traineeship starting January 2007!</span></h1>
+		<!-- 	drink a lot of coffee
+		love puns
+		could go for a beer or two
+		own a Grumpy Cat
+		don't get why SnapChat is fun
+		am available for a traineeship starting January 2007! -->
 	</div>
 
 	<!-- Short about -->
 	<div id=sectionAbout class="container">
-	<h2>About</h2>
+		<h2>About</h2>
+			<div class="row">
+				<div class="col-sm-4">
+					<img id=imgSelma src="images/selma.jpg" alt="Selma Dorrestein" style="width:100%;">
+				</div>
+				<div class="col-sm-8">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				</div>
+			</div>
+	</div>
+
+	<!-- Portfolio/accomplishments test 2 -->
+	<div id=sectionPortfolio class="container">
+		<h2>Portfolio</h2>
+		<h3>Academic</h3>
 		<div class="row">
 			<div class="col-sm-4">
-				<img id=imgSelma src="images/selma.jpg" alt="Selma Dorrestein" style="width:100%;">
+				<img id= portf1 class=portfolioPic src="images/panda6.jpg" alt="testpanda" style="width:100%;">
+				<p id=portf1tekst>Dit is een test, want ik snap ff niet meer zo goed wat ik aan het doen ben en waar ik naar oplossingen moet zoeken.</p>
 			</div>
-			<div class="col-sm-8">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+			<div class="col-sm-4">					
+				<img class=portfolioPic src="images/panda6.jpg" alt="testpanda" style="width:100%;">
+			</div>
+			<div class="col-sm-4">
+				<img class=portfolioPic src="images/panda6.jpg" alt="testpanda" style="width:100%;">
+			</div>
+		</div>
+		<h3>Side projects</h3>
+		<div class="row">
+			<div class="col-sm-4">
+				<img class=portfolioPic src="images/panda6.jpg" alt="testpanda" style="width:100%;">				
+			</div>
+			<div class="col-sm-4">
+				<img class=portfolioPic src="images/panda6.jpg" alt="testpanda" style="width:100%;">
+			</div>
+			<div class="col-sm-4">
+				<img class=portfolioPic src="images/panda6.jpg" alt="testpanda" style="width:100%;">
+			</div>
 		</div>
 	</div>
 
-		<!-- Portfolio/accomplishments test 2 -->
-		<div id=sectionPortfolio class="container">
-		<h2>Portfolio</h2>
-		<h3>Academic</h3>
-			<div class="row">
-				<div class="col-sm-4">
-					<img id= portf1 class=portfolioPic src="images/panda6.jpg" alt="testpanda" style="width:100%;">
-					<p id=portf1tekst>Dit is een test, want ik snap ff niet meer zo goed wat ik aan het doen ben en waar ik naar oplossingen moet zoeken.</p>
-				</div>
-				<div class="col-sm-4">					
-					<img class=portfolioPic src="images/panda6.jpg" alt="testpanda" style="width:100%;">
-				</div>
-				<div class="col-sm-4">
-					<img class=portfolioPic src="images/panda6.jpg" alt="testpanda" style="width:100%;">
-				</div>
-			</div>
-			<h3>Side projects</h3>
-			<div class="row">
-				<div class="col-sm-4">
-					<img class=portfolioPic src="images/panda6.jpg" alt="testpanda" style="width:100%;">				
-				</div>
-				<div class="col-sm-4">
-					<img class=portfolioPic src="images/panda6.jpg" alt="testpanda" style="width:100%;">
-				</div>
-				<div class="col-sm-4">
-					<img class=portfolioPic src="images/panda6.jpg" alt="testpanda" style="width:100%;">
-				</div>
-			</div>
-		</div>
-
-		<!-- Education moet wss met een tabel ofzo, want anders kloppen die jaartallen natuurlijk niet. -->
-		<div id=sectionEducation class="container">
+	<!-- Education moet wss met een tabel ofzo, want anders kloppen die jaartallen natuurlijk niet. -->
+	<div id=sectionEducation class="container">
 		<h2>Education</h2>
-  <table class="table table-hover">
-    <tbody>
-          <tr>
-        <td width="80%"><b>New York Code + Design Academy</b><br>
-		Full-Stack Web Development Intensive with JavaScript</td>
-        <td class=year width="20%">2016</td>
-      </tr>
-            <tr>
-        <td><b>University of Amsterdam, Amsterdam</b><br>
-        Master of Arts: New Media and Digital Culture</td>
-        <td class=year>2015-2016</td>
-      </tr>
-            <tr>
-        <td><b>University of Amsterdam, Amsterdam</b><br>
-        Bachelor of Arts: Media and Culture - Television and Popular Culture<br>
-		<i>Minor: Intelligence Studies</i>
-		</td>
-        <td class=year>2010-2014</td>
-      </tr>
-      <tr>
-        <td><b>Pleincollege Sint Joris, Eindhoven</b><br>
-        Vwo (preuniversity education) continued.<br>
-		<i>Track: "Nature, health and technology", emphasizing biology and natural sciences</i></td>
-        <td class=year>2007-2010</td>
-      </tr>
-      <tr>
-        <td><b>Clifton State High School, Clifton, Australia</b><br>
-        Grade 11 (as an exchange student)</td>
-        <td class=year>2007</td>
-      </tr>
-      <tr>
-        <td><b>Pleincollege Sint Joris, Eindhoven</b><br>
-        Vwo (preuniversity education)</td>
-        <td class=year>2002-2006</td>
-      </tr>
-    </tbody>
-  </table>
-</div>
-		</div>
+		<table class="table table-hover">
+			<tr>
+				<td width="80%"><b>New York Code + Design Academy</b><br>
+				Full-Stack Web Development Intensive with JavaScript</td>
+				<td class=year width="20%">2016</td>
+			</tr>
+			<tr>
+				<td><b>University of Amsterdam, Amsterdam</b><br>
+				Master of Arts: New Media and Digital Culture</td>
+				<td class=year>2015-2016</td>
+			</tr>
+			<tr>
+				<td><b>University of Amsterdam, Amsterdam</b><br>
+				Bachelor of Arts: Media and Culture - Television and Popular Culture<br>
+				<i>Minor: Intelligence Studies</i>
+				</td>
+				<td class=year>2010-2014</td>
+			</tr>
+			<tr>
+				<td><b>Pleincollege Sint Joris, Eindhoven</b><br>
+				Vwo (preuniversity education) continued.<br>
+				<i>Track: "Nature, health and technology", emphasizing biology and natural sciences</i></td>
+				<td class=year>2007-2010</td>
+			</tr>
+			<tr>
+				<td><b>Clifton State High School, Clifton, Australia</b><br>
+				Grade 11 (as an exchange student)</td>
+				<td class=year>2007</td>
+			</tr>
+			<tr>
+				<td><b>Pleincollege Sint Joris, Eindhoven</b><br>
+				Vwo (preuniversity education)</td>
+				<td class=year>2002-2006</td>
+			</tr>
+		</table>
+	</div>
 
-			<!-- Work experience moet wss met een tabel ofzo, want anders kloppen die jaartallen natuurlijk niet. -->
-		<div id=sectionWork class="container">
+	<!-- Work experience moet wss met een tabel ofzo, want anders kloppen die jaartallen natuurlijk niet. -->
+	<div id=sectionWork class="container">
 		<h2>Work experience</h2>
-  <table class="table table-hover">
-    <tbody>
-          <tr>
-        <td width="80%"><b>YOU!</b><br>
-		Starting 2017, I am looking for a challenging internship in the Full-Stack Web Development area. Hesitate no longer and <a href="#sectionContact">shoot me a message!</a></td>
-        <td class=year width="20%">2017</td>
-      </tr>
-            <tr>
-        <td><b>Greetz, Amsterdam</b><br>
-        Function: Customer Service agent.<br>
-Fulltime: 20 - 40 hours per week.
-</td>
-        <td class=year>Jan. 2015 - Oct. 2016</td>
-      </tr>
-            <tr>
-        <td><b>OpblaasVerhuur, Amsterdam</b><br>
-        Function: branch manager Amsterdam location<br>
-Fulltime availability, hours per week differ.
+		<table class="table table-hover">
+			<tr>
+				<td width="80%"><b>YOU!</b><br>
+				Starting 2017, I am looking for a challenging internship in the Full-Stack Web Development area. Hesitate no longer and <a href="#sectionContact">shoot me a message!</a></td>
+				<td class=year width="20%">2017</td>
+			</tr>
+			<tr>
+				<td><b>Greetz, Amsterdam</b><br>
+				Function: Customer Service agent.<br>
+				Fulltime: 20 - 40 hours per week.
+				</td>
+				<td class=year>Jan. 2015 - Oct. 2016</td>
+			</tr>
+			<tr>
+				<td><b>OpblaasVerhuur, Amsterdam</b><br>
+				Function: branch manager Amsterdam location<br>
+				Fulltime availability, hours per week differ.
+				</td>
+				<td class=year>July 2015 - July 2016</td>
+			</tr>
+			<tr>
+				<td><b>Maxima Medical Centre, Department of Pain Medicine, Eindhoven</b><br>
+				Fucntion: administrative assistant.<br>
+				Fulltime: 24 - 40 hours per week.
+				</td>
+				<td class=year>Feb. 2014 - Oct. 2014</td>
+			</tr>
+			<tr>
+				<td><b>Kidsweek and 7Days, Amsterdam</b><br>
+				Function: editorial intern.<br>
+				Fulltime: 32 hours per week
+				</td>
+				<td class=year>Sept. 2013 - Nov. 2013</td>
+			</tr>
+			<tr>
+				<td><b>Berghauser Pont Publishing, Amsterdam</b><br>
+				Function: allround medewerker.<br> 
+				Parttime: 16 hours per week
+				</td>
+				<td class=year>Sept. 2013 - Nov. 2013</td>
+				</tr>
+		</table>
+	</div>
 
-		</td>
-        <td class=year>July 2015 - July 2016</td>
-      </tr>
-      <tr>
-        <td><b>Maxima Medical Centre, Department of Pain Medicine, Eindhoven</b><br>
-        Fucntion: administrative assistant.<br>
-Fulltime: 24 - 40 hours per week.
-</td>
-        <td class=year>Feb. 2014 - Oct. 2014</td>
-      </tr>
-      <tr>
-        <td><b>Kidsweek and 7Days, Amsterdam</b><br>
-        Function: editorial intern.<br>
-Fulltime: 32 hours per week
-</td>
-        <td class=year>Sept. 2013 - Nov. 2013</td>
-      </tr>
-            <tr>
-        <td><b>Berghauser Pont Publishing, Amsterdam</b><br>
-        Function: allround medewerker.<br> 
-Parttime: 16 hours per week
-
-</td>
-        <td class=year>Sept. 2013 - Nov. 2013</td>
-      </tr>
-    </tbody>
-  </table>
-</div>
+	<!-- Skills, skills, skills -->
+	<div id=sectionSkills class="container">
+		<h2>Skills</h2>
+		<div class="row">
+			<div class="col-sm-4">
+				<h3>Currently learning</h3>
+				<p>See this page? Not that stunning right? However, it has been build in 2 days, with no previous experience in HTML, CSS or jQuery whatsoever. Currently I'm learning how to do so in the course "Full-Stack Web Development Intensive with JavaScript", as taught by the NYCDA. Keep visiting regularly, and see firsthand how I grow and learn, and how my shown projects transform from theses to code.</p>
+			</div>
+			<div class="col-sm-4">
+				<h3>In just 12 weeks...</h3>
+				<p>...I'll have the following skills</b></p>
+				<ul>
+ 					<li>HTML5</li>
+					<li>Git</li>
+					<li>Sass</li>
+					<li>CSS</li>
+					<li>JavaScript</li>
+					<li>Computer Science Basics</li>
+					<li>Database Theory</li>
+					<li>Collaborative Development</li>
+					<li>jQuery</li>
+					<li>Node.js</li>
+					<li>Express.js</li>
+					<li>Command Line</li>
+				</ul>
+			</div>
+			<div class="col-sm-4">
+				<h3>Existing skills</h3>
+				<p>The following program knowledge is already extensive</b></p>
+				<ul>
+ 					<li>MS Word</li>
+					<li>MS Excel</li>
+					<li>MS PowerPoint</li>
+					<li>CS-EZIS EPD</li>
+					<li>Div. company specific backoffices</li>
+				</ul>
+				<p>And I speak the following languages:</p>
+				<ul>
+					<li>Dutch: native</li>
+					<li>English: fluent</li>
+					<li>French: reasonable</li>
+					<li>German: average</li>
+					<li>Spanish: limited</li>
+				</ul>
+			</div>
 		</div>
+	</div>
 
-				<!-- Skills, skills, skills -->
-				<div id=sectionSkills class="container">
-				<h2>Skills</h2>
-					<div class="row">
-						<div class="col-sm-4">This website looks like crap. It is because I'm currently still learning very very much and I'm not necessarily good at it. Yet. Here come the skills I'm learning.</div>
-						<div class="col-sm-4"> OMG I have so many skills and languages. I'm gonna put them all here. soooooooooo many skills, I hope they will all fit here. Love my skills, love my skills love it. I know many languages too. so many. french. dutch. flemish. brabants. languages languages languages, maybe even use funny flags. who knows. languages.</div>
-						<div class="col-sm-4">Apart from all those things listed here I have some great qualities too. And, granted, some lesser qualities. But I think I'll only show the good ones here.</div>
-					</div>
-				</div>
+	<!-- Contact -->
+	<div id=sectionContact class="container">
+		<h2>Contact information</h2>
+		<div class="row">
+			<div class="col-sm-4">
+				<h3>Contact me!</h3>
+				<ul class="sb circle gray text">
+					<li><a href="#" class="twitter">Twitter</a></li>
+					<li><a href="#" class="facebook">Facebook</a></li>
+				</ul>
+				<a href="#" class="sb orange twitter">Twitter</a>
+				<a href="#" class="sb blue facebook">Facebook</a>
+			</div>
+			<div class="col-sm-4">
+				<h3>Meet me!</h3>
+				<p>Our class is located on the third floor of John M. Keynesplein 12. You can find me here, monday until friday, 10am to 6pm: learning to code (better!). Come say hi! I would love to meet you.</p>
+			</div>
+			<div class="col-sm-4">
+				<div id="map" style="width:100%;height:250px;">My map will go here</div>
+			</div>
+		</div>	
+	</div>
 
-				<!-- Contact -->
-				<div id=sectionContact class="container">
-				<h2>Contact information</h2>
-					<div class="row">
-						<div class="col-sm-4"><p><span class="glyphicon glyphicon-envelope"> selmadorrestein@gmail.com</p>
-						</div>
-						<div class="col-sm-4">
-							<h3>Need me?</h3>
-							<p>You can find me here, monday until friday, 10am to 6pm: learning to code (better!). Come say hi! I would love to meet you.</p>
-						</div>
-						<div class="col-sm-4">
-						<div id="map" style="width:100%;height:250px;">My map will go here</div>	
+	<script src="./includes/jquery-3.1.1.min.js"></script>
+	<script src='./includes/bootstrap/js/bootstrap.min.js'></script>
+	<script src="./includes/main.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?callback=initMap"></script>
 
-						
-
-						</div>
-					</div>
-				</div>
-
-				<script src="./includes/jquery-3.1.1.min.js"></script>
-				<script src='./includes/bootstrap/js/bootstrap.min.js'></script>
-				<script src="./includes/main.js"></script>
-				<script src="https://maps.googleapis.com/maps/api/js?callback=initMap"></script>
-
-			</body>
-			</html>
+</body>
+</html>
