@@ -1,49 +1,4 @@
-
-//Tekst zichtbaar maken in het portfolio.
-$("div #portf1tekst").hide();
-$("div #portf2tekst").hide();
-$("div #portf3tekst").hide();
-$("div #portf4tekst").hide();
-$("div #portf5tekst").hide();
-$("div #portf6tekst").hide();
-
-
-$("#portf1").click(function(){
-	var button = false;
-	if (button.click) {
-		button = true
-		$("#portf1tekst").fadeOut(1000)
-	} else {
-		$("#portf1tekst").fadeIn(1000)
-		button = false
-	}
-});
-
-// $("#portf1").click(function(){
-// 	$("#portf1tekst").fadeOut(10000);
-// });
-
-$("#portf2").click(function(){
-	$("#portf2tekst").fadeIn(1000);
-});
-
-$("#portf3").click(function(){
-	$("#portf3tekst").fadeIn(1000);
-});
-
-$("#portf4").click(function(){
-	$("#portf4tekst").fadeIn(1000);
-});
-
-$("#portf5").click(function(){
-	$("#portf5tekst").fadeIn(1000);
-});
-
-$("#portf6").click(function(){
-	$("#portf6tekst").fadeIn(1000);
-});
-
-
+//smooth scrolling
 $(document).ready(function(){
   // Add smooth scrolling to all links in navbar + footer link
   $(".navbar a").on('click', function(event) {
@@ -71,16 +26,61 @@ $(document).ready(function(){
 })
 
 
-
-
-$("#imgSelma").fadeOut( 5000 )
-$("#imgSelma").fadeIn( 5000 )
-
+//rotating text
 $(".rotating").textrotator({
   animation: "dissolve", // You can pick the way it animates when rotating through words. Options are dissolve (default), fade, flip, flipUp, flipCube, flipCubeUp and spin.
   separator: ",", // If you don't want commas to be the separator, you can define a new separator (|, &, * etc.) by yourself using this field.
   speed: 2000 // How many milliseconds until the next word show.
 });
+
+
+//Tekst zichtbaar maken in het portfolio.
+$("div #portf1tekst").hide();
+$("div #portf2tekst").hide();
+$("div #portf3tekst").hide();
+$("div #portf4tekst").hide();
+$("div #portf5tekst").hide();
+$("div #portf6tekst").hide();
+
+
+var button = false
+$("#portf1").click(function(){
+	if (button.onclick) {
+		button = false;
+		$("#portf1tekst").fadeOut(1000)
+	} else {
+		$("#portf1tekst").fadeIn(1000)
+		button = true;
+	}
+});
+
+
+
+// $("#portf1").click(function(){
+// 	$("#portf1tekst").fadeOut(10000);
+// });
+
+$("#portf2").click(function(){
+	$("#portf2tekst").fadeIn(1000);
+});
+
+$("#portf3").click(function(){
+	$("#portf3tekst").fadeIn(1000);
+});
+
+$("#portf4").click(function(){
+	$("#portf4tekst").fadeIn(1000);
+});
+
+$("#portf5").click(function(){
+	$("#portf5tekst").fadeIn(1000);
+});
+
+$("#portf6").click(function(){
+	$("#portf6tekst").fadeIn(1000);
+});
+
+
 
 // Contact: map
  function initMap() {
