@@ -1,11 +1,20 @@
 
+//Tekst zichtbaar maken in het portfolio.
+$("div #portf1tekst").hide();
+$("div #portf2tekst").hide();
+$("div #portf3tekst").hide();
 
-// $("div #portf1tekst").hide();
+$("#portf1").click(function(){
+	$("#portf1tekst").fadeIn(1000);
+});
 
-// // $("#portf1").click(function(){
-// // 	$("#portf1tekst").fadeIn(1000);
-// // });
+$("#portf2").click(function(){
+	$("#portf2tekst").fadeIn(1000);
+});
 
+$("#portf3").click(function(){
+	$("#portf3tekst").fadeIn(1000);
+});
 
 
 $(document).ready(function(){
