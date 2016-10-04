@@ -22,19 +22,19 @@
 			</div>
 			<div class="collapse navbar-collapse" id="myNavbar">
 				<ul class="nav navbar-nav">
-					<li id=buttonAbout><a href="#sectionAbout">About</a></li>
-					<li id=buttonPortfolio><a href="#sectionPortfolio">Portfolio</a></li> 
-					<li id=buttonEducation><a href="#sectionEducation">Education</a></li> 
-					<li id=buttonWork><a href="#sectionWork">Work experience</a></li> 
-					<li id=buttonSkills><a href="#sectionSkills">Skills</a></li> 
-					<li id=buttonContact><a href="#sectionContact">Contact</a></li> 
+					<li id=buttonAbout><a href="#linkToAbout">About</a></li>
+					<li id=buttonPortfolio><a href="#linkToPortfolio">Portfolio</a></li> 
+					<li id=buttonEducation><a href="#linkToEducation">Education</a></li> 
+					<li id=buttonWork><a href="#linkToWork">Work experience</a></li> 
+					<li id=buttonSkills><a href="#linkToSkills">Skills</a></li> 
+					<li id=buttonContact><a href="#linkToContact">Contact</a></li> 
 				</ul>
 			</div>
 		</div>
 	</nav>
 
 	<div class="container">
-		<h1>Hello! I <span class="rotating">am Selma, drink a lot of coffee, love puns, could go for a beer or two, own a Grumpy Cat, am available for a traineeship starting January 2007!</span></h1>
+		<h1>Hello! I <span class="rotating">am Selma, drink a lot of coffee, love puns, could go for a beer or two, own a Grumpy Cat, could be your trainee starting January 2007!</span></h1>
 		<!-- 	drink a lot of coffee
 		love puns
 		could go for a beer or two
@@ -44,6 +44,7 @@
 	</div>
 
 	<!-- Short about -->
+	<div id=linkToAbout class=paddingForNav></div>
 	<div id=sectionAbout class="container">
 		<h2>About</h2>
 			<div class="row">
@@ -62,12 +63,13 @@
 	</div>
 
 	<!-- Portfolio/accomplishments test 2 -->
+	<div id=linkToAbout class=paddingForNav></div>
 	<div id=sectionPortfolio class="container">
 		<h2>Portfolio</h2>
 		<h3>Academic</h3>
 		<div class="row">
-			<div class="col-sm-4">
-				<img id= portf1 class=portfolioPic src="images/panda6.jpg" alt="testpanda" style="width:100%;">
+			<div class="col-sm-4" class=portfolioPic>
+				<img id= portf1 src="images/panda6.jpg" alt="testpanda" style="width:100%;">
 				<p id=portf1tekst>Dit is een test, want ik snap ff niet meer zo goed wat ik aan het doen ben en waar ik naar oplossingen moet zoeken.</p>
 			</div>
 			<div class="col-sm-4">					
@@ -92,6 +94,7 @@
 	</div>
 
 	<!-- Education moet wss met een tabel ofzo, want anders kloppen die jaartallen natuurlijk niet. -->
+	<div id=linkToEducation class=paddingForNav></div>
 	<div id=sectionEducation class="container">
 		<h2>Education</h2>
 		<table class="table table-hover">
@@ -132,6 +135,7 @@
 	</div>
 
 	<!-- Work experience moet wss met een tabel ofzo, want anders kloppen die jaartallen natuurlijk niet. -->
+	<div id=linkToWork class=paddingForNav></div>
 	<div id=sectionWork class="container">
 		<h2>Work experience</h2>
 		<table class="table table-hover">
@@ -179,6 +183,7 @@
 	</div>
 
 	<!-- Skills, skills, skills -->
+	<div id=linkToSkills class=paddingForNav></div>
 	<div id=sectionSkills class="container">
 		<h2>Skills</h2>
 		<div class="row">
@@ -227,6 +232,7 @@
 	</div>
 
 	<!-- Contact -->
+	<div id=linkToContact class=paddingForNav></div>
 	<div id=sectionContact class="container">
 		<h2>Contact information</h2>
 		<div class="row">
@@ -248,9 +254,9 @@
 	</div>
 
 	<script src="./includes/jquery-3.1.1.min.js"></script>
+	<script src="./includes/jquery.simple-text-rotator.js"></script>
 	<script src='./includes/bootstrap/js/bootstrap.min.js'></script>
 	<script src="./includes/main.js"></script>
-	<script src="./includes/jquery.simple-text-rotator.js"></script>
 	<script src="https://maps.googleapis.com/maps/api/js?callback=initMap"></script>
 
 </body>
