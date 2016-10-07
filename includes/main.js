@@ -1,3 +1,6 @@
+console.log("Hi! I'm available for a traineeship starting 2017!")
+
+
 //smooth scrolling
 $(document).ready(function(){
   // Add smooth scrolling to all links in navbar + footer link
@@ -21,7 +24,7 @@ $(document).ready(function(){
       // Add hash (#) to URL when done scrolling (default click behavior)
       window.location.hash = hash;
       });
-    } // End if
+    }
   });
 })
 

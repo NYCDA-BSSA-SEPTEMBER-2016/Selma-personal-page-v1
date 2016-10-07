@@ -30,17 +30,16 @@ footer {
   	padding: 10px;
   	text-align: center;
   	width: 100%;
-  	border-top-style: solid;
-  	border-top-width: 1px;
+  	border-top: solid 1px #404040;
   	border-top-left-radius: 150px;
   	border-top-right-radius: 150px;
-  	border-top-color: #404040;
 }
 
 .container {
 	/*border-style: solid none;*/
 	padding: 15px;
 	margin: 20px;
+	background: #f2f2f2;
 }
 
 /*This was a gradient background, which was pretty cool, but looked like the website was built in MS Frontpage*/
@@ -61,39 +60,27 @@ footer {
 /*Navbar shizzle*/
 
 #buttonAbout {
-	border-bottom-style: solid;
-	border-bottom-width: 5px;
-	border-bottom-color: #595959;
+	border-bottom: solid 5px #595959;
 }
 
 #buttonPortfolio {
-	border-bottom-style: solid;
-	border-bottom-width: 5px;
-	border-bottom-color: #737373;
+	border-bottom: solid 5px #737373;
 }
 
 #buttonEducation {
-	border-bottom-style: solid;
-	border-bottom-width: 5px;
-	border-bottom-color: #8c8c8c;
+	border-bottom: solid 5px #8c8c8c;
 }
 
 #buttonWork {
-	border-bottom-style: solid;
-	border-bottom-width: 5px;
-	border-bottom-color: #a6a6a6;
+	border-bottom: solid 5px #a6a6a6;
 }
 
 #buttonSkills {
-	border-bottom-style: solid;
-	border-bottom-width: 5px;
-	border-bottom-color: #bfbfbf;
+	border-bottom: solid 5px #bfbfbf;
 }
 
 #buttonContact {
-	border-bottom-style: solid;
-	border-bottom-width: 5px;
-	border-bottom-color: #d9d9d9;
+	border-bottom: solid 5px #d9d9d9;
 }
 
 .paddingForNav {
@@ -106,10 +93,6 @@ footer {
 
 .navbar .navbar-nav > li > a {
 	color: #bfbfbf;
-}
-
-#ownName {
-	font-color: #bfbfbf;
 }
 
 .navbar .navbar-nav > li > a:hover,
@@ -161,45 +144,27 @@ footer {
 
 /*Matching containers to NavButtons*/
 #sectionAbout {
-	border-left-style: solid;
-	border-left-width: 15px;
-	border-left-color: #595959;
-	background-color: #f2f2f2;
+	border-left: solid 15px #595959;
 }
 
 #sectionPortfolio {
-	border-left-style: solid;
-	border-left-width: 15px;
-	border-left-color: #737373;
-	background-color: #f2f2f2;
+	border-left: solid 15px #737373;
 }
 
 #sectionEducation {
-	border-left-style: solid;
-	border-left-width: 15px;
-	border-left-color: #8c8c8c;
-	background-color: #f2f2f2;
+	border-left: solid 15px #8c8c8c;
 }
 
 #sectionWork {
-	border-left-style: solid;
-	border-left-width: 15px;
-	border-left-color: #a6a6a6;
-	background-color: #f2f2f2;
+	border-left: solid 15px #a6a6a6;
 }
 
 #sectionSkills {
-	border-left-style: solid;
-	border-left-width: 15px;
-	border-left-color: #bfbfbf;
-	background-color: #f2f2f2;
+	border-left: solid 15px #bfbfbf;
 }
 
 #sectionContact {
-	border-left-style: solid;
-	border-left-width: 15px;
-	border-left-color: #d9d9d9;
-	background-color: #f2f2f2	;
+	border-left: solid 15px #d9d9d9;
 }
 
 /*Contact*/
