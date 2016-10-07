@@ -59,9 +59,6 @@ footer {
 /*    background-attachment: fixed;*/
 
 /*Navbar shizzle*/
-.navbar {
-	background-color: #404040
-}
 
 #buttonAbout {
 	border-bottom-style: solid;
@@ -102,6 +99,39 @@ footer {
 .paddingForNav {
 	padding-top: 60px;
 }
+
+.navbar-inverse {
+	background-color: #404040;
+}
+
+.navbar .navbar-nav > li > a {
+	color: #bfbfbf;
+}
+
+#ownName {
+	font-color: #bfbfbf;
+}
+
+.navbar .navbar-nav > li > a:hover,
+.navbar .navbar-nav > li > a:focus {
+	color: #d9d9d9;
+}
+
+/*Dit is volgens mij voor scrollspy*/
+/*.navbar .navbar-nav > .active > a, 
+.navbar .navbar-nav > .active > a:hover, 
+.navbar .navbar-nav > .active > a:focus {
+	color: yellow;
+	background-color: green;
+}
+.navbar .navbar-nav > .open > a, 
+.navbar .navbar-nav > .open > a:hover, 
+.navbar .navbar-nav > .open > a:focus {
+	color: orange;
+	background-color: pink;
+}*/
+
+
 
 /*About*/
 #fixedHeight {

@@ -15,7 +15,7 @@ $(document).ready(function(){
     // Using jQuery's animate() method to add smooth page scroll
     // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
     $('html, body').animate({
-      scrollTop: $(hash).offset().top
+      scrollTop: $(hash).offset().top //hier kun je met + of - een getal toevoegen zodat ie lager of hoger scrollt
     }, 900, function(){
 
       // Add hash (#) to URL when done scrolling (default click behavior)
@@ -55,29 +55,102 @@ $("div #portf6tekst").hide();
 // 	}
 // });
 
+var button1 = false
+
 $("#portf1").click(function(){
-	$("#portf1tekst").fadeOut(10000);
+  if (button1) {
+    $("#portf1tekst").fadeOut(1000)
+    button1 = false;
+  } else {
+    $("#portf1tekst").fadeIn(1000)
+    button1 = true;
+  }
 });
+
+var button2 = false
 
 $("#portf2").click(function(){
-	$("#portf2tekst").fadeIn(1000);
+  if (button2) {
+    $("#portf2tekst").fadeOut(1000)
+    button2 = false;
+  } else {
+    $("#portf2tekst").fadeIn(1000)
+    button2 = true;
+  }
 });
+
+var button3 = false
 
 $("#portf3").click(function(){
-	$("#portf3tekst").fadeIn(1000);
+  if (button3) {
+    $("#portf3tekst").fadeOut(1000)
+    button3 = false;
+  } else {
+    $("#portf3tekst").fadeIn(1000)
+    button3 = true;
+  }
 });
+
+var button4 = false
 
 $("#portf4").click(function(){
-	$("#portf4tekst").fadeIn(1000);
+  if (button4) {
+    $("#portf4tekst").fadeOut(1000)
+    button4 = false;
+  } else {
+    $("#portf4tekst").fadeIn(1000)
+    button4 = true;
+  }
 });
+
+var button5 = false
 
 $("#portf5").click(function(){
-	$("#portf5tekst").fadeIn(1000);
+  if (button5) {
+    $("#portf5tekst").fadeOut(1000)
+    button5 = false;
+  } else {
+    $("#portf5tekst").fadeIn(1000)
+    button5 = true;
+  }
 });
 
+var button6 = false
+
 $("#portf6").click(function(){
-	$("#portf6tekst").fadeIn(1000);
+  if (button6) {
+    $("#portf6tekst").fadeOut(1000)
+    button6 = false;
+  } else {
+    $("#portf6tekst").fadeIn(1000)
+    button6 = true;
+  }
 });
+
+
+// $("#portf1").click(function(){
+// 	$("#portf1tekst").fadeIn(1000);
+// });
+
+// $("#portf2").click(function(){
+// 	$("#portf2tekst").fadeIn(1000);
+// });
+
+// $("#portf3").click(function(){
+// 	$("#portf3tekst").fadeIn(1000);
+// });
+
+// $("#portf4").click(function(){
+// 	$("#portf4tekst").fadeIn(1000);
+// });
+
+// $("#portf5").click(function(){
+// 	$("#portf5tekst").fadeIn(1000);
+// });
+
+// $("#portf6").click(function(){
+// 	$("#portf6tekst").fadeIn(1000);
+// });
 
 
 
