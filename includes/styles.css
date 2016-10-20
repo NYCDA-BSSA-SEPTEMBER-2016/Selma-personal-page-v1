@@ -127,6 +127,11 @@ footer {
 	padding-right: 50px;
 }
 
+#imgSelma {
+	border-top-right-radius: 90px;
+	border-bottom-right-radius: 90px;
+}
+
 /*Portfolio*/
 #clickImage {
 	font-size: 1.2em;
@@ -135,6 +140,15 @@ footer {
 .portfolioPic {
 	padding: 15px 0px;
 	position: relative;
+}
+
+#portf3 {
+	border-top-right-radius: 90px;	
+}
+
+
+#portf6 {
+	border-bottom-right-radius: 90px;
 }
 
 /*Education/work*/
